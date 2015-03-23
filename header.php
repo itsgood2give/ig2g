@@ -19,10 +19,16 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
+	
+
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'ig2g' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<a class="nonblock nontext clip_frame pinned-colelem" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<img class="block" src="<?php bloginfo('template_directory'); ?>/images/ig2g%20logo.png" alt="" width="94" height="79">
+			</a>
+
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-branding -->
