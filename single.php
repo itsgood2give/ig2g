@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts.
  *
- * @package _s
+ * @package ig2g
  */
 
 get_header(); ?>

@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features
  *
- * @package _s
+ * @package ig2g
  */
 
 /**
@@ -49,7 +49,7 @@ if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 
 		// Add a page number if necessary:
 		if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-			$title .= " $sep " . sprintf( __( 'Page %s', '_s' ), max( $paged, $page ) );
+			$title .= " $sep " . sprintf( __( 'Page %s', 'ig2g' ), max( $paged, $page ) );
 		}
 
 		return $title;

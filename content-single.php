@@ -1,6 +1,6 @@
 <?php
 /**
- * @package _s
+ * @package ig2g
  */
 ?>
 
@@ -17,7 +17,7 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', '_s' ),
+				'before' => '<div class="page-links">' . __( 'Pages:', 'ig2g' ),
 				'after'  => '</div>',
 			) );
 		?>

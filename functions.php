@@ -1,8 +1,8 @@
 <?php
 /**
- * _s functions and definitions
+ * ig2g functions and definitions
  *
- * @package _s
+ * @package ig2g
  */
 
 /**
@@ -25,10 +25,10 @@ function _s_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on _s, use a find and replace
-	 * to change '_s' to the name of your theme in all the template files
+	 * If you're building a theme based on ig2g, use a find and replace
+	 * to change 'ig2g' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( '_s', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'ig2g', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -50,7 +50,7 @@ function _s_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', '_s' ),
+		'primary' => __( 'Primary Menu', 'ig2g' ),
 	) );
 
 	/*
@@ -85,7 +85,7 @@ add_action( 'after_setup_theme', '_s_setup' );
  */
 function _s_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', '_s' ),
+		'name'          => __( 'Sidebar', 'ig2g' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -100,11 +100,11 @@ add_action( 'widgets_init', '_s_widgets_init' );
  * Enqueue scripts and styles.
  */
 function _s_scripts() {
-	wp_enqueue_style( '_s-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'ig2g-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'ig2g-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( '_s-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'ig2g-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

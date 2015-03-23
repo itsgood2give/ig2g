@@ -1,8 +1,8 @@
 <?php
 /**
- * _s Theme Customizer
+ * ig2g Theme Customizer
  *
- * @package _s
+ * @package ig2g
  */
 
 /**
