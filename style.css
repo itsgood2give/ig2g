@@ -56,6 +56,15 @@ body {
 	margin: 0;
 }
 
+.blog {
+ /* ipaterso : match ig2g spec */
+}
+
+.site-branding {
+		background-color: #C5A47E; /* ipaterso : match ig2g spec */
+}
+
+
 article,
 aside,
 details,
