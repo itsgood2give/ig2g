@@ -892,7 +892,7 @@ object {
 	display: block;
 }
 
-/* ipaterso */
+/* ipaterso : below copied from Muse stuff */
 
 @font-face
 {
@@ -921,11 +921,12 @@ object {
 	font-style: italic;
 }
 
-body
+/* Where the page content lives */
+#content, .site-footer
 {
-	position: relative;
-	min-width: 1100px;
-	padding-bottom: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
 }
+
 
 
