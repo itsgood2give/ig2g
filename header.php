@@ -25,12 +25,26 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<a class="nonblock nontext clip_frame pinned-colelem" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img class="block" src="<?php bloginfo('template_directory'); ?>/images/ig2g%20logo.png" alt="" width="94" height="79">
+
+			<a class="nonblock nontext" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<img class="ipt_logo block" src="<?php bloginfo('template_directory'); ?>/images/ig2g%20logo.png" alt="" width="94" height="79">
 			</a>
+
+			<!-- ipaterso ig2g -->
+			<div class="ipt_topbar">
+					<div class="ipt_smallwhitetext">
+				 	<p>The Ripple Retreat is due for completion in 2015. Thank-you all for your support £750,063 raised so far, 75% of the total we need!</p>
+					</div>
+				
+			</div>
+
+<!--
 
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+-->
+
+
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
