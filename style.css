@@ -922,7 +922,7 @@ object {
 }
 
 /* Where the page content lives */
-#content, .site-footer
+#content
 {
 	padding-left: 18px;
 	padding-right: 18px;
@@ -1050,7 +1050,313 @@ object {
 
 .ipt_1px_black
 {
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(135, 135, 134);
   height: 1px;
 }
+
+
+.ipt_1px_black
+{
+	background-color: rgb(135, 135, 134);
+  height: 1px;
+
+}
+
+.ipt_spaced_below {
+	margin-bottom: 18px;
+}
+
+
+.ipt_spaced_above {
+	margin-top: 18px;
+}
+
+.ipt_double_spaced_above {
+	margin-top: 36px;
+}
+
+.ipt_left_footer_content {
+	   float: left;
+  
+    width: 129px;
+    height: 57px;
+    margin:5px;
+}
+
+.ipt_inner_left_footer_content {
+	float: left;
+   	height: 63px;
+  	width: 89px;
+  	margin:5px;
+}
+
+.ipt_text_right_blurb {
+margin-left: 300px;
+color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  height: 90px;
+  	width: 600px;
+  	padding-left: 24px;
+  	  	border-left: 1px solid gray;
+
+}
+
+.ipt_redline {
+	background-color: rgb(163, 25, 91);
+	width:100%;
+	height:2px;
+}
+
+#u245 {
+	  -webkit-transform-origin: 0px 0px;
+  background-color: rgb(163, 25, 91);
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  display: block;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  height: 1.98863637447357px;
+  left: 0px;
+  line-height: 17px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  position: absolute;
+  right: 0px;
+  text-align: left;
+  transform-origin: 0px 0px;
+  width: 1100px;
+  word-wrap: break-word;
+  z-index: 267;
+}
+
+
+#u246-2 {
+	  -webkit-transform-origin: 0px 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  color: rgb(163, 25, 91);
+  display: block;
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 13px;
+  font-weight: normal;
+  height: 15.4545450210571px;
+  line-height: 16px;
+  margin-bottom: 0px;
+  margin-left: 18px;
+  margin-right: 0px;
+  margin-top: 15px;
+  max-height: 1000000px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: left;
+  transform-origin: 0px 0px;
+  width: 315px;
+  word-wrap: break-word;
+}
+
+#u246-4 {
+	  -webkit-transform-origin: 0px 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  color: rgb(163, 25, 91);
+  display: block;
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 10px;
+  font-weight: normal;
+  height: 11.8181819915771px;
+  line-height: 12px;
+  margin-bottom: 0px;
+  margin-left: 18px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-height: 1000000px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: left;
+  transform-origin: 0px 0px;
+  width: 315px;
+  word-wrap: break-word;
+}
+
+.site-info {
+	margin-bottom: 22px;
+}
+
+
+.rTable {
+	display: block;
+	width: 100 % ;
+}
+
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+	clear: both;
+}
+
+
+.rTableCell, .rTableHead {
+	border: 0px;	
+	float: left;   	
+	/*height: 140px;  */ 	
+	overflow: hidden;  
+	padding-top:0px;
+	padding-top:0px; 	
+	padding-left: 3%; 
+	padding-right: 0%;  	
+	width: 30%; 
+} 
+
+.ipt_decorated_left {
+	border-left: 1px solid rgb(135, 135, 134);		
+}
+
+.rTable:after 
+{   	visibility: hidden;   	display: block;   	font-size: 0;   	content: " ";   	clear: both;   	height: 0; }
+
+
+.tinyTable {
+	display: block;
+	width: 100 % ;
+}
+
+.tinyTableHeading, .tinyTableBody, .tinyTableFoot, .tinyTableRow {
+	clear: both;
+}
+
+.tinyTableCell, .tinyTableHead {
+	border: 0px; 	
+	float: left;   	
+	/*height: 88px; */  	
+	overflow: hidden;   	
+	padding-left: 4%;
+	padding-right: 0%;   	
+	width: 46%; 
+} 
+
+/*
+.tinyTable:after 
+{   	visibility: hidden;   	display: block;   	font-size: 0;   	content: " ";   	clear: both;   	height: 0; }
+*/
+
+.ipt_text_11_135_15 {
+  color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.ipt_text_11_135_11 {
+  color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 11px;
+}
+
+.ipt_text_11_135_17 {
+  color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+.ipt_offset_down {
+	padding-top: 15px;
+}
+
+.ipt_a_135 {
+	color: rgb(135, 135, 134);	
+}
+
+.ipt_inline {
+	display:inline;
+}
+
+.ipt_social_18 {
+	width:18px;
+	height:18px;
+	vertical-align: middle;
+}
+
+.ipt_envelope {
+	width:27px;
+	height:13x;
+	vertical-align: middle;
+}
+
+
+.ipt_semi_opaque {
+	opacity: 0.7;
+}
+
+#u612
+{
+	background: transparent url("./images/grey%20facebook%20icon%20big-vector%20smart%20object.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u612:hover
+{
+	background: transparent url("./images/grey%20facebook%20icon%20big-vector%20smart%20object2.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u624
+{
+	position: relative;
+	background: transparent url("./images/grey%20tumblr%20icon%20big-vector%20smart%20object.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u624:hover
+{
+	background: transparent url("./images/grey%20tumblr%20icon%20big-vector%20smart%20object2.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u636
+{
+	position: relative;
+	background: transparent url("./images/grey%20youtube%20icon%20big-vector%20smart%20object.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u636:hover
+{
+	background: transparent url("./images/grey%20youtube%20icon%20big-vector%20smart%20object2.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u648
+{
+	position: relative;
+	background: transparent url("./images/grey%20pinterest%20icon%20big-vector%20smart%20object.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u648:hover
+{
+	background: transparent url("./images/grey%20pinterest%20icon%20big-vector%20smart%20object2.png") no-repeat left top;
+	background-size: contain;
+}
+
 
